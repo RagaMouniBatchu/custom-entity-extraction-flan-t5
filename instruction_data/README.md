@@ -36,10 +36,3 @@ with open('instruction_data/train.jsonl', 'r') as f:
     for line in f:
         train_data.append(json.loads(line))
 ```
-
-## Dataset Statistics
-- Total samples: 7,000
-- Train samples: 5,000
-- Test samples: 2,000
-- Unknown entity ratio: ~25%
-- Balanced entity distribution across train/test splits
