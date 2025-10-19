@@ -1,10 +1,10 @@
 # FLAN-T5 Instruction Fine-tuning Dataset
 
 ## Dataset Overview
-This dataset contains 7,000 instruction-response pairs for fine-tuning FLAN-T5 on financial entity extraction from consumer complaints.
+This dataset contains 6500 instruction-response pairs for fine-tuning FLAN-T5 on financial entity extraction from consumer complaints.
 
 - **Train set**: 5,000 samples
-- **Test set**: 2,000 samples
+- **Test set**: 1,500 samples
 - **Entity types**: transaction_type, account_type_source, account_type_target, merchant, channel, direction
 
 ## File Format (FLAN-T5)
